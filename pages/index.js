@@ -14,6 +14,15 @@ export default function Home() {
       </Head>
       <Script src='/welcome.js' strategy="lazyOnload"></Script>
 
+      <nav className={styles.mainnav}>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Portfolio</li>
+          <li>Twitter</li>
+        </ul>
+      </nav>
+
       <main className={styles.main}>
         <h1 className={styles.title}>
            <a href="https://nextjs.org">Devkant Swargiary</a>
@@ -29,7 +38,7 @@ export default function Home() {
             <h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
-
+ 
           <a href="https://nextjs.org/learn" className={styles.card}>
             <h2>Learn &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
