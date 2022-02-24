@@ -14,14 +14,7 @@ export default function Home() {
       </Head>
       <Script src='/welcome.js' strategy="lazyOnload"></Script>
 
-      <nav className={styles.mainnav}>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Portfolio</li>
-          <li>Twitter</li>
-        </ul>
-      </nav>
+      
 
       <main className={styles.main}>
         <h1 className={styles.title}>
