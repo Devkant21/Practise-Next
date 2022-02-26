@@ -27,31 +27,31 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://dev21.hashnode.dev/error-malformed-postcss-configuration-nextjs" className={styles.card}>
+            <h2>Error: Malformed PostCSS Configuration - NextJS &rarr;</h2>
+            <p>PostCSS configuration error mitigation </p>
           </a>
  
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <a href="https://dev21.hashnode.dev/react-boilerplate-generation" className={styles.card}>
+            <h2>React Boilerplate Generation &rarr;</h2>
+            <p>Boilerplate generation through the ES7 extension (dsznajder)</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="https://dev21.hashnode.dev/hoisting-in-javascript"
             className={styles.card}
           >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <h2>Hoisting in Javascript &rarr;</h2>
+            <p>In Javascript (JS), variables and functions can be accessed before initializing it without any error anywhere in the program. This is known as Hoisting.</p>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://dev21.hashnode.dev/secrets-module-in-python"
             className={styles.card}
           >
-            <h2>Deploy &rarr;</h2>
+            <h2>'secrets' module in Python. &rarr;</h2>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+            The secrets module is useful for generating random numbers which might be used as a password, security tokens etc. for the application. It is used to prevent against modifying cookies, forgery attacks
             </p>
           </a>
         </div>
